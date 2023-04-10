@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible, content=" IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>MyApp</title>
+</head>
+
+<body>
+    <div class="heading"> <h2 class="head">Forms</h2> </div>
+    <!--<br class="headspace">-->
+    <header>
+        <h2>Info Form</h2>
+        <p>This is a forms app, do not enter any
+            personal information
+        </p>
+    </header>
+    <hr>
+    <br class="formends">
+
+    <main>
+        <div>
+            <form action="#" method="get" id="userdata" class="infoform">
+                <fieldset class="name">
+                    <legend>Name</legend>
+                    <label for="name">Name:</label>
+                    <input type="text" name="name" id="name">
+                </fieldset> <br class="formbw">
+
+                <fieldset class="age">
+                    <legend>Age</legend>
+                    <label for="age">Age:</label>
+                    <input type="number" name="age" id="age" max="125">
+                </fieldset> <br class="formbw">
+
+                <fieldset class="favgame">
+                    <legend>Fav Game:</legend>
+                    <label for="game"></label>
+                    <select name="game" id="game" class="dropbox">
+                        <option value="mc">Minecraft</option>
+                        <option value="racing">Real Racing 3</option>
+                        <option value="air">Ace Combat 7</option>
+                        <option value="sim">Microsoft Flight Sim</option>
+                    </select>
+                </fieldset> <br class="formends">
+
+            </form>
+        </div>
+    </main>
+    
+    <hr>
+    <footer>
+        Fake Forms
+        <a href="#">Contact Us</a>
+    </footer>
+</body>
+
+</html>

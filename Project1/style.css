@@ -1,0 +1,22 @@
+body {
+    background-image: url('/Assets/bgimgts.jpg');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: 100% 100%;
+}
+
+.heading {
+    font-size: 35px;
+    color: #12395d;
+    text-align: center;
+    line-height: 40%;
+    border-style: solid;
+    border-width: 2.5px;
+    border-color: black;
+    background-color: #80bfff;
+    opacity: 0.4;
+}
+
+.head {
+    opacity: 1.0;
+}
