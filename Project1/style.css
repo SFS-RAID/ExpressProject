@@ -1,22 +1,42 @@
 body {
-    background-image: url('/Assets/bgimgts.jpg');
+    background-color: #0093E9;
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-size: 100% 100%;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .heading {
     font-size: 35px;
-    color: #12395d;
+    color:aqua;
     text-align: center;
+    text-shadow: cyan 0 0 50px;
     line-height: 40%;
     border-style: solid;
     border-width: 2.5px;
     border-color: black;
-    background-color: #80bfff;
-    opacity: 0.4;
+    background-color: #0A0A0A;
+    opacity: 1;
+    margin: 0;
+    margin-left: 0;
+    margin-right: 0;
+    justify-content: center;
 }
 
 .head {
     opacity: 1.0;
+}
+
+.foot{
+    font-size: 17px;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #1b1c1c;
+    border: 2px solid black;
+    padding: 5px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
 }

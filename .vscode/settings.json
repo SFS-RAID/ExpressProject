@@ -1,0 +1,5 @@
+{
+    "liveServer.settings.port": 5502,
+    "livePreview.serverKeepAliveAfterEmbeddedPreviewClose": 1,
+    "livePreview.tasks.runTaskWithExternalPreview": true
+}
